@@ -1,5 +1,4 @@
 import flet as ft
-import random
 
 def main(page: ft.Page):
     page.title = 'Datezinho?'
@@ -21,7 +20,7 @@ def main(page: ft.Page):
             font_family="Montserrat"
         )    
     envolpe_img = ft.Image(
-                    src=f"envelope.png",
+                    src=f"https://raw.githubusercontent.com/liviavianna/pedido_date_py/main/envelope.png",
                     width=200,
                     height=200
     )
